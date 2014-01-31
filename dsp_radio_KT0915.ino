@@ -1,3 +1,10 @@
+/*
+ * DSP Radio (KT0915) control program on Arduino IDE
+ *
+ *  Created on: Jan. 31 , 2014
+ *      Author: kodera2t
+ */
+
 #include <I2CLiquidCrystal.h>
 #include <Wire.h>
 I2CLiquidCrystal lcd(30, true);
