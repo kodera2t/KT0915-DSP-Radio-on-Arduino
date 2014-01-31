@@ -27,7 +27,7 @@ void i2c_write(int device_address, int memory_address, int value, int value2)
   delay(10);
 }
 
-// 1バイト読込み関数
+
 void i2c_read(int device_address, int memory_address)
 {
 Wire.beginTransmission(device_address);
